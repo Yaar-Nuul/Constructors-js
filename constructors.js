@@ -63,13 +63,13 @@ class Question {
    
     
     const question1 = new Question(
-    "What is the capital of France?",
-    ["London", "Paris", "Berlin", "Rome"],
+    "Who painted the Monalisa painting?",
+    ["Thomas Edison", "Robert", "Davinci", "Francis"],
     "Paris"
     );
     
     
-    const userAnswer = "Paris";
+    const userAnswer = "Davinci";
     console.log(question1.checkAnswer(userAnswer)); 
     
     
